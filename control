@@ -1,0 +1,9 @@
+Package: com.tko-cuber.dockbegone
+Name: DockBeGone
+Depends: mobilesubstrate
+Version: 0.0.1
+Architecture: iphoneos-arm
+Description: My first tweak :) A simple tweak to remove the dock from SpringBoard to help complete that sleek look.
+Maintainer: TKO-Cuber
+Author: TKO-Cuber
+Section: Tweaks
