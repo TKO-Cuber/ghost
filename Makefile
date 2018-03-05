@@ -1,4 +1,7 @@
-include ../theos/makefiles/common.mk
+
+export ARCHS = armv7 arm64
+
+include $(THEOS)/makefiles/common.mk
 
 TWEAK_NAME = DockBeGone
 DockBeGone_FILES = tweak.xm
