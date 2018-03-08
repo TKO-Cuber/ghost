@@ -2,7 +2,7 @@
 
 %hook SBDockView
     -(void)setBackgroundAlpha:(double)arg1 {
-        %orig(0.0)
+        %orig(0.0);
     }
     
 
