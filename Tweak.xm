@@ -14,18 +14,20 @@
 
 %hook _UILegibilityImageView //hide app names on SB
     - (void)setImage:(id)arg1 {
-        %orig(NULL)
+        %orig(NULL);
     }
 %end
 
 %hook UIStatusBarServiceItemView //hide carrier name
     - (void)setVisible:(BOOL)arg1 {
-        %orig(NO)
+        %orig(NO);
     }
 %end
 
+/**
 %hook SBDashBoardMainPageView //hide press home to unlock
     - (void)_layoutCallToActionLabel {
-        $orig(NULL)
+        %orig(NULL)
     }
 %end
+**/
