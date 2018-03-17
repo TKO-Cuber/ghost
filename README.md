@@ -2,6 +2,7 @@
 
 A simple tweak to remove various elements of SpringBoard
 (Also my first tweak)
+  -Currently removes dock background and page dots
 
 *Works on iOS 10... may work for other versions... I'll have to test*
 
