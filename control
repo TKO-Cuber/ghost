@@ -1,9 +1,9 @@
-Package: com.tko-cuber.dockbegone
-Name: DockBeGone
+Package: com.tko-cuber.ghost
+Name: Ghost
 Depends: mobilesubstrate
 Version: 0.0.1
 Architecture: iphoneos-arm
-Description: My first tweak :) A simple tweak to remove the dock background from SpringBoard to help complete that sleek look.
-Maintainer: TKO-Cuber
-Author: TKO-Cuber
+Description: A simple tweak to remove various elements of SpringBoard. Also my first tweak! :)
+Maintainer: TKO_Cuber
+Author: TKO_Cuber
 Section: Tweaks
